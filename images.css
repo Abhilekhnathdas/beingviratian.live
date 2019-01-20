@@ -1,0 +1,172 @@
+body{font-size:16px;
+	margin:0;
+	background:white;
+}
+#ontop
+{
+height:30px;
+width:100%;
+background:rgb(0, 26, 68);
+position:relative;
+}	
+#ontop p{
+	text-align:right;
+	margin-right:20px;
+	padding-top:3px;
+	font-size:16px;
+	
+
+}
+#ontop a{
+	text-decoration:none;
+	margin:10px;
+		color:white;
+}
+div.top{
+	height:100px;
+	background:black;
+	background-image:url("abstract.jpg");
+	color:black;
+	text-align:center;
+	font-family:"Brush Script Std";
+}
+#flg{
+	color:white;
+	font-size:90px;
+	text-shadow:2px 2px blue;
+	margin:none;
+	padding:none;
+	display:inline;
+}
+div.navbar{
+	height:50px;
+	background:transparent;
+	
+}
+button.nav{
+width:24.5%;
+height:40px;
+background:transparent;
+border:none;
+outline:none;
+border-right:solid teal 1px;
+border-collapse:collapse;
+position:relative;
+padding:0;
+}
+button.nav:nth-of-type(4)
+{
+	border-right:none;
+}
+a.nav{
+	color:gray;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:none;
+	text-transform:uppercase;
+	width:100%;
+    height:100%;
+	font-family:'Source Sans Pro',helvetica,arial,sans-serif;
+}
+a.nav:hover{
+color:indianred;
+}	
+	#nav1
+{
+	height:40px;
+	margin-top:10px;
+	border-bottom:solid 1px gray;
+	margin-bottom:20px;
+	display:block;
+	}
+button.nav2{
+	border:none;
+	outline:none;
+	background:rgba(0, 26, 68,0.6);
+	width:24%;
+	height:40px;
+}
+button.nav2:nth-of-type(1)
+{
+	margin-left:25%;
+}
+button.nav2:hover
+{
+	background:rgb(0, 26, 68);
+	color:rgb(178, 76, 102);
+}
+a.nav2
+{
+	text-decoration:none;
+	text-transform:uppercase;
+	font-style:bold;
+	font-size:1em;
+	color:white;
+	display:block;
+}
+#zoom
+{
+	 display:none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+div.i
+{
+	width:100px;
+	height:auto;
+    overflow:auto;
+}
+#back{
+	margin-top:10px;
+	text-align:center;
+	font-size:16px;
+}
+.visual
+{
+	display:none;
+}
+input
+{
+	width:100%;
+	height:80px;
+	background:linear-gradient(to top,lightgray,lightgray,white);
+	border:none;
+	font-size:16px;
+	outline:none;
+}
+.bx
+{
+	width:32%;
+	height:auto;
+	float:left;
+	margin:6px;
+	background:gray;
+}
+
+div.newim
+{
+	width:30%;
+	height:auto;
+	float:left;
+}
+#close{
+	width:100%;
+	height:100px;
+}
+#zoomedimg{
+	width:100%;
+	height:auto;
+	margin-left:16%;
+	margin-bottom:100px;
+}
+#closewin{
+	float:right;
+	margin-right:50px;
+	margin-top:10px;
+}

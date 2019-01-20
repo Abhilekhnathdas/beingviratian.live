@@ -1,0 +1,246 @@
+body{font-size:16px;
+	margin-left:0;
+	margin-top:0;
+	background:linear-gradient(90deg,rgb(18, 22, 28),rgb(18, 22, 28),rgb(67, 78, 94),rgb(18, 22, 28),rgb(18, 22, 28),rgb(18, 22, 28),rgb(18, 22, 28),rgb(18, 22, 28),rgb(18, 22, 28),rgb(18, 22, 28),rgb(18, 22, 28),rgb(18, 22, 28),rgb(67, 78, 94),rgb(18, 22, 28),rgb(18, 22, 28));
+	font-family:'Source Sans Pro',helvetica,arial,sans-serif;
+}
+.heading{
+	width:100%;
+	height:340px;
+	color:white;
+	background-image:url("virat.jpg");
+	opacity:0.8;
+}
+.heading p
+{
+	font-size:37px;
+	font-weight:900;
+	text-align:center;
+	background:rgba(3, 46, 109,0.6);
+	margin-top:0px;
+	height:80px;
+	}
+#ontop{
+height:30px;
+width:100%;
+background:rgb(0, 26, 68);
+position:relative;
+}	
+#ontop p{
+	text-align:right;
+	margin-right:20px;
+	padding-top:3px;
+	font-size:16px;
+	
+
+}
+#ontop a{
+	text-decoration:none;
+	margin:10px;
+		color:white;
+}
+.incent
+{
+	
+	width:100%;
+	height:900px;
+}
+	div.navbar
+{
+	width:100%;
+	height:40px;
+	margin-left:13px;
+	display:content;
+}
+button.nav{
+	border:none;
+	outline:none;
+	background-image:radial-gradient(rgb(255, 219, 77),rgb(255, 219, 77),rgb(18, 22, 28),rgb(18, 22, 28));
+	width:24%;
+	height:40px;
+	margin:0;
+}
+button.nav:hover
+{
+	background:transparent;
+}
+button.nav:hover a
+{
+	color:rgb(255, 219, 77);
+}
+a.nav
+{
+	text-decoration:none;
+	text-transform:uppercase;
+	font-style:bold;
+	font-size:1em;
+	color:black;
+	font-weight:700;
+}
+#list
+{
+	margin-left:240px;
+	margin-top:20px;
+	color:white;
+	opacity:0.5;
+	width:65%;
+	float:left;
+	border:solid 1px white;
+	border-radius:10px;
+	background:rgba(53, 107, 186,0.5);
+	
+}
+.vid a
+{
+	color:yellow;
+	text-decoration:none;
+     line-height:15px;
+	 font-size:15px;
+	 transition:1s;
+}
+.vid a:hover
+{
+	color:white;
+	margin-left:20px;
+}
+.opt
+{
+margin-top:30px;
+margin-left:35%;
+height:50px;
+}
+.opt button
+{
+	color:white;
+	width:20%;
+	height:40px;
+	border-radius:18px;
+	outline:none;
+	background:black;
+	margin-left:20px;
+	font-weight:800;
+}
+#ODI:hover
+{
+	color:orange;
+	background:rgba(111, 162, 214,0.1);
+}
+#Test:hover
+{
+	color:orange;
+	background:rgba(111, 162, 214,0.1);
+}
+div.up{
+	width:100%;
+padding-top:10px;
+padding-bottom:10px;
+background:rgb(50,50,50);
+float:right;
+margin-top:100px;
+}	
+div.bottom{
+	margin:10px 20px 20px 20px;
+	width:900px;
+	height:100px;
+	border:solid gray 1px;
+	padding-left:30px;
+    background:rgb(31, 40, 56);
+	color:white;
+	}	
+#bcci{
+	margin-bottom:10px;
+}
+div.sedia{
+	width:50%;
+	float:right;
+	color:lightgray;
+}
+div.wedia
+{
+	width:50%;
+	float:right;
+	height:100%;
+	padding-top:20px;
+}
+.social
+{
+	border-radius:4px;
+}
+a.logo
+{
+	margin-left:70px;
+}
+img.social
+{
+	width:30px;
+	height:30px;
+	transition:2s;
+}
+.change{
+	width:30px;
+	height:30px;
+}
+.finav
+{
+	margin:20px 20px 20px 20px;
+	width:900px;
+	height:130px;
+	border:solid gray 1px;
+	padding-left:30px;
+    background:rgb(31, 40, 56);
+	padding-top:10px;
+	padding-bottom:20px;
+	margin-bottom:10px;
+}
+#ifinav
+{
+	width:40%;
+	float:left;
+	padding-top:10px
+}
+#ifinav a
+{
+	margin-left:20px;
+	display:inline;
+	font-size:16px;
+	font-family:'Source Sans Pro',helvetica,arial,sans-serif;
+	color:lightgray;
+	text-decoration:none;
+	margin-right:20px;
+}
+#aic
+{
+width:40%;
+float:right;
+padding-top:40px;	
+}
+#aic a
+{
+	margin-left:20px;
+	display:inline;
+	font-size:16px;
+	font-family:'Source Sans Pro',helvetica,arial,sans-serif;
+	color:lightgray;
+	text-decoration:none;
+	margin-right:20px;
+	
+}
+#aic a:hover
+{
+	font-size:16.5px;
+	transition:0.5s;
+	color:white;
+}
+#ifinav a:hover
+{
+	font-size:16.5px;
+	transition:0.5s;
+	color:white;
+}
+#and
+{
+	margin-left:43%;
+height:20px;
+display:inline;
+color:gray;
+}
